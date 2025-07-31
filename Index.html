@@ -1,0 +1,225 @@
+<Index class="htm"></Index>
+<index class="htm"></index>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width", inicitial-scale=" 0.8">
+  <title>Site teste</title>
+  <style>
+    body {
+	text-align:center;
+      margin: 0;
+      font-family: Roboto slab, Arial, sans-serif;
+      background-image: url('Background.png');
+	  background-color: rgb(255, 255, 255);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #000;
+    }
+
+    header {
+	position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+	  backdrop-filter: blur(6px);
+	  z-index: 1;
+    }
+
+    nav {
+	  position: relative;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+	  position: relative;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 20px;
+      background: #fff;
+    }
+
+    .logo {
+	  position: relative;
+	  margin-top: -55px;
+	  margin-right: 1100px;
+      font-size: 20px;
+      font-weight: bold;
+	  z-index: 2;
+    }
+	
+	h2{position:center;}
+
+    .produtos, .categorias, .destaques, .contato {
+      padding: 40px 60px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+	  display: inline-grid;
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+	  position: relative;
+    }
+
+    .botao-comprar {
+	  position: relative;
+      margin-bottom: 3px;
+      background: black;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .categorias img {
+      width: 60px;
+      margin: 10px;
+      cursor: pointer;
+    }
+	
+	.price{
+	  position: relative;
+	  margin-top: 5px;
+	}
+
+    footer {
+	  text-decoration: none;
+      padding: 40px 60px;
+      background: rgba(255, 255, 255, 0.228);
+      display: flex;
+      justify-content: space-between;
+      backdrop-filter: blur(6px);
+    }
+	
+	a{
+		text-decoration: none;
+		color: black;
+	}
+
+    .contato h2 {
+	  position: absolute;
+      font-size: 24px;
+      margin-top: 25px;
+    }
+
+    .info-midia{
+	position: relative;
+	margin-left: 5px;
+      line-height: 1.6;
+    }
+	
+	.info-centro{
+	position: relative;
+	margin-left: 5px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" target="_blank">Shop</a>
+      <a href="#" target="_blank">Mobile</a>
+      <a href="#" target="_blank">TV & AV</a>
+      <a href="#" target="_blank">Eletrodomésticos</a>
+      <a href="#" target="_blank">Monitores & Informática</a>
+      <a href="#" target="_blank">Acessórios</a>
+    </nav>
+  </header>
+  <div class="logo">INNOVARE</div>
+  <section class="produtos">
+    <h2>Produtos em Destaque</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/Smart tv 32.png" alt="TV">
+        <p>TV Smart 32” c/ Android2</p>
+        <p class="price">R$ 950,00</p>
+        <button class="botao-comprar">COMPRAR</button>
+      </div>
+      <div class="card">
+        <img src="images/Caixa de som.png" alt="Caixa de Som">
+        <p>Caixa de som, USB/Bluetooth</p>
+        <p class="price">R$ 449,00</p>
+        <button class="botao-comprar">COMPRAR</button>
+      </div>
+	  <div class="card">
+        <img src="images/Smartwatch.png" alt="Caixa de Som">
+        <p>Smartwatch Vega1</p>
+        <p class="price">R$ 199,00</p>
+        <button class="botao-comprar">COMPRAR</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="categorias">
+    <h2>Categorias</h2>
+    <div class="card-container">
+      <img src="images/Novidades.png" alt="NOVIDADES">
+      <img src="images/smartphone.png" alt="MOBILE">
+      <img src="images/television.png" alt="TV">
+      <img src="images/frig.png" alt="ELETRODOMÉSTICOS">
+      <img src="images/laptop.png" alt="INFORMÁTICA">
+    </div>
+  </section>
+
+  <section class="destaques">
+    <h2>Ofertas</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/Notebook-Gamer.png" alt="Notebook">
+        <p><strong>Notebook Gamer 8°Gen</strong></p><br>R$5.499,00
+      </div>
+      <div class="card">
+        <img src="images/smartwatch.png" alt="Smartwatch">
+        <p><strong>Smartwatch</strong></p><br>R$149,00
+      </div>
+      <div class="card">
+        <img src="images/Caixa_de_som_portatil.png" alt="Caixa de som portátil">
+        <p><strong>Caixa de som Portatil</strong></p><br>R$189,00
+      </div>
+    </div>
+  </section>
+  <footer class="contato">
+    <div>
+      <h2>Entre em contato conosco</h2>
+    </div>
+    <div class="info-centro">
+      <strong>CENTRO LOGÍSTICO</strong><br>
+      Rua Mariano Procópio, 37<br>
+      São Paulo, SP, Brasil<br>
+      (21) 4002-8922
+    </div>
+    <div class="info-midia">
+      <strong>MÍDIAS SOCIAIS</strong><br>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a><br>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a><br>
+      <a href="https://www.x.com/" target="_blank">X / Twitter</a><br>
+    </div>
+  </footer>
+</body>
+</html>
